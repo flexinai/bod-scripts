@@ -9,8 +9,8 @@ async function updatePrivacy() {
 
   /**
    * getVideos - recursive function to get all of the videos in a playlist from multiple pages
-   * @param {*} playlistId
-   * @param {*} pageToken
+   * @param {string} playlistId
+   * @param {string} pageToken
    */
   async function getVideos(playlistId, pageToken) {
     const playlistItems = await youtube.playlistItems.list({
