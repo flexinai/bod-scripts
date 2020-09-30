@@ -5,9 +5,9 @@
   "description": "a collection of scripts",
   "keywords": [],
   "dependencies": {
-    "@google-cloud/local-auth": "^1.0.0",
-    "googleapis": "^52.1.0",
-    "node-fetch": "^2.6.1"
+    "@google-cloud/local-auth": "1.0.0",
+    "googleapis": "52.1.0",
+    "node-fetch": "2.6.1"
   },
   "devDependencies": {
     "eslint": "5.16.0"
