@@ -59,7 +59,8 @@ async function updatePrivacy() {
           kind: 'youtube#video',
           status: {
             privacyStatus: 'unlisted',
-            selfDeclaredMadeForKids: false
+            selfDeclaredMadeForKids: false,
+            embeddable: true
           },
           snippet: {
             title: item.snippet.title,
