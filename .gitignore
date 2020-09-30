@@ -136,3 +136,5 @@ dog.mpg
 dog-light.mp4
 oauth2.keys.json
 .now
+
+package-lock.json
