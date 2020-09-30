@@ -1,38 +1,27 @@
 {
-  "name": "bod-api",
+  "name": "bod-scripts",
   "private": true,
   "version": "0.0.0",
-  "description": "a Sails application",
+  "description": "a collection of scripts",
   "keywords": [],
   "dependencies": {
     "@google-cloud/local-auth": "^1.0.0",
-    "@sailshq/connect-redis": "^3.2.1",
-    "@sailshq/lodash": "^3.10.3",
-    "@sailshq/socket.io-redis": "^5.2.0",
     "googleapis": "^52.1.0",
-    "grunt": "1.0.4",
-    "node-fetch": "^2.6.1",
-    "sails": "^1.2.4",
-    "sails-hook-grunt": "^4.0.0",
-    "sails-hook-orm": "^2.1.1",
-    "sails-hook-sockets": "^2.0.0"
+    "node-fetch": "^2.6.1"
   },
   "devDependencies": {
     "eslint": "5.16.0"
   },
   "scripts": {
     "build": "",
-    "start": "NODE_ENV=production node app.js",
-    "test": "npm run lint && npm run custom-tests && echo 'Done.'",
-    "lint": "./node_modules/eslint/bin/eslint.js . --max-warnings=0 --report-unused-disable-directives && echo '✔  Your .js files look good.'",
-    "custom-tests": "echo \"(No other custom tests yet.)\" && echo"
+    "start": ""
   },
   "main": "app.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/upstateinteractive/bod-api.git"
+    "url": "git://github.com/body-project/bod-scripts.git"
   },
-  "author": "upstateinteractive",
+  "author": "Peter B Smith",
   "license": "",
   "engines": {
     "node": "^12.4"
